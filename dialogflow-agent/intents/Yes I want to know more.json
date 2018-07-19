@@ -1,0 +1,28 @@
+{
+  "id": "8c4f23c9-f525-4aba-ab38-cb7fc8c83762",
+  "name": "Yes I want to know more",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "What is your question?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532126907,
+  "fallbackIntent": false,
+  "events": []
+}

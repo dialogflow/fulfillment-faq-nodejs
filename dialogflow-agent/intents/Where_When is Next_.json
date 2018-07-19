@@ -1,0 +1,33 @@
+{
+  "id": "e5360f8f-27cb-4854-9be2-52e2248a3ef3",
+  "name": "Where/When is Next?",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Next ’18 is taking over the Moscone Center in San Francisco from July 24th to July 26th. The Moscone Center is located at 748 Howard Street in San Francisco. Do you have any more questions about Cloud Next?"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532130035,
+  "fallbackIntent": false,
+  "events": []
+}

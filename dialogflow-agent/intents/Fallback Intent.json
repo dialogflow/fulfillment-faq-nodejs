@@ -1,0 +1,37 @@
+{
+  "id": "f4f09bf2-25db-438c-b72b-bcb8d5327548",
+  "name": "Fallback Intent",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Sorry. I didn\u0027t get that. Can you say that again?",
+            "Sorry. I didn\u0027t get that. You can ask me questions about Cloud Next.  Would you like to try again?",
+            "Whoops! I didn\u0027t get that. Would you like to try again?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532129813,
+  "fallbackIntent": true,
+  "events": [
+    {
+      "name": "actions_intent_NO_INPUT"
+    }
+  ]
+}

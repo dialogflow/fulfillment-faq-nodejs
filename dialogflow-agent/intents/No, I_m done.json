@@ -1,0 +1,43 @@
+{
+  "id": "b44be7cf-3630-461c-8e54-94bc363e5f19",
+  "name": "No, I\u0027m done",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "textToSpeech": "Ok, say talk to \"Next helper\" if you have more questions"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Ok! Enjoy Cloud Next! Goodbye"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1532132835,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "actions_intent_NO_INPUT"
+    },
+    {
+      "name": "actions_intent_CANCEL"
+    }
+  ]
+}
