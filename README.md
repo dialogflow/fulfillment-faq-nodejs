@@ -14,7 +14,7 @@ Click on the **Add to Dialogflow** button below and follow the prompts to create
 ### Knowledge Connector
 1. Click on the "Knowledge" tab in the left column and then "Create Knowledge base" in the top right.  Name the knowledge base `Conference` and click "Save"
 1. Next, click `Create the first one.` in the center of the screen to create your first knowledge document.  Enter in `Conference FAQ` for the document name, `text/csv` for the "Mime Type" and `FAQ` for the "Knowledge type".
-1.  Under "Data source" select `URL` and enter `https://raw.githubusercontent.com/dialogflow/fulfillment-faq-nodejs/master/next-faq.csv` and then click "Create".
+1.  Under "Data source" select `File on Cloud Storage` and enter `gs://cloud-next-csv/next-faq.csv` and then click "Create".
 1. After the knowledge document has been created in the response section click "Add response". In text response you should see `$Knowledge.Answer[1]`. Add `. Do you have any more questions about Cloud Next?` to the response and Click "Save".
 1. Select the "Google Assistant" tab for responses and add a "Simple Response" with the value `$Knowledge.Answer[1]` and then add a second "Simple Response" with the value `Do you have any more questions about Cloud Next?` and click "Save"
 1. Try it out! In the simulator on the right enter `What time does the conference start and end?`.  You should see the response from the CSV you just uploaded: "The first keynote starts at 9 AM on Tuesday and programming ends at 2:30 PM on Thursday. We highly recommend picking up your badge on Monday (anytime between 7 AM and 8 PM) or early on Tuesday to avoid lines."
